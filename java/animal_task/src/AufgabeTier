@@ -1,0 +1,30 @@
+package AufgabeTier;
+
+public class Tier {
+
+    protected String name;
+    protected double gewichtInKg;
+    protected int groesseInCm;
+
+    public Tier(String name, double gewichtInKg, int groesseInCm) {
+        this.name = name;
+        this.gewichtInKg = gewichtInKg;
+        this.groesseInCm = groesseInCm;
+    }
+
+    public void bewegen() {
+        System.out.println("Das Tier bewegt sich.");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getGewichtInKg() {
+        return gewichtInKg;
+    }
+
+    public int getGroesseInCm() {
+        return groesseInCm;
+    }
+}
